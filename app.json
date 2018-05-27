@@ -1,0 +1,27 @@
+{
+  "name": "ss-with-net-speeder",
+  "description": "",
+  "scripts": {
+  },
+  "env": {
+    "KEY": {
+      "required": true
+    },
+    "METHOD": {
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
